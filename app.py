@@ -77,4 +77,3 @@ prediction = rf.predict(input_scaled)[0]
 
 lit.subheader("Prediction Result:")
 lit.write("☠️ Poisonous" if prediction == 0 else "🍽️ Edible")
-
